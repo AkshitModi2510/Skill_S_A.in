@@ -1,0 +1,774 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Most Important for Icons -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Home Page</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom_nav fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Blog.html">Blogs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Web.html" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="Web.html">Web Development</a></li>
+              <li><a class="dropdown-item" href="Data_Sci.html">Data Science</a></li>
+              <li><a class="dropdown-item" href="data_Structure.html">Data Structures</a></li>
+              <li><a class="dropdown-item" href="AI.html">Artificial Intelligence</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact us.html">Contact Us</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <a href="#" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Register
+            Online</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+  <!-- Register Online Nav -->
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content ">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Register Online</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="custom-divide"></div>
+        <div class="modal-body ">
+          <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ullam</b></p>
+          <form>
+            <div class="mt-3 mb-3">
+              <input type="text" class="form-control form-control-dark" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Phone Number" required>
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Course Name" required>
+            </div>
+            <div class="mb-3 d-grid">
+              <input type="submit" class="btn btn-block btn-dark" value="Register Online Now">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Register Online Nav -->
+  <!-- header banner -->
+  <header class="custom_banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 col-md-9">
+          <h1>Skill Share Academy</h1>
+          <p>Why to Pay to learn anything Offline when you can get the same
+            knowledge Online at the place you are Now. <br> Learn anything and everything here.<br>
+          <h5> Welcome to Skill Share Academy. </h5>
+          </p>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-lg-6 col-md-6 d-none d-sm-block">
+          <form action="Search.html">
+            <div class="input-group mb-5">
+              <input type="text" class="form-control form-control-sm" placeholder="Search.."
+                aria-describedby="button-addon2">
+              <button class="btn btn-success" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-search-heart-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M6.5 13a6.474 6.474 0 0 0 3.845-1.258h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.008 1.008 0 0 0-.115-.1A6.471 6.471 0 0 0 13 6.5 6.502 6.502 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13Zm0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z" />
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row d-block d-sm-none">
+        <div class="col-lg-12 col-md-12 d-grid">
+          <a href="#" class="btn btn-warning btn-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Register
+            Online</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header banner -->
+  <!-- Features list holder -->
+  <section class="features">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <div class="feature-holder">
+            <h2>
+              <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-bicycle"
+                viewBox="0 0 16 16">
+                <path
+                  d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z" />
+              </svg>
+            </h2>
+            <h3>Cycling</h3>
+            <p>Cycling is mainly an aerobic activity, which means that your heart, blood vessels and
+              lungs all get a workout. You will breathe deeper, perspire and experience increased body
+              temperature, which will improve your overall fitness level</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <div class="feature-holder">
+            <h2>
+              <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-earbuds"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M6.825 4.138c.596 2.141-.36 3.593-2.389 4.117a4.432 4.432 0 0 1-2.018.054c-.048-.01.9 2.778 1.522 4.61l.41 1.205a.52.52 0 0 1-.346.659l-.593.19a.548.548 0 0 1-.69-.34L.184 6.99c-.696-2.137.662-4.309 2.564-4.8 2.029-.523 3.402 0 4.076 1.948zm-.868 2.221c.43-.112.561-.993.292-1.969-.269-.975-.836-1.675-1.266-1.563-.43.112-.561.994-.292 1.969.269.975.836 1.675 1.266 1.563zm3.218-2.221c-.596 2.141.36 3.593 2.389 4.117a4.434 4.434 0 0 0 2.018.054c.048-.01-.9 2.778-1.522 4.61l-.41 1.205a.52.52 0 0 0 .346.659l.593.19c.289.092.6-.06.69-.34l2.536-7.643c.696-2.137-.662-4.309-2.564-4.8-2.029-.523-3.402 0-4.076 1.948zm.868 2.221c-.43-.112-.561-.993-.292-1.969.269-.975.836-1.675 1.266-1.563.43.112.561.994.292 1.969-.269.975-.836 1.675-1.266 1.563z" />
+              </svg>
+            </h2>
+            <h3>Music</h3>
+            <p>Music is often an enjoyable activity, it can activate the release of endorphins,
+              which creates a general feeling of well-being. Music therapy can successfully reduce
+              post-operative pain, physical tension and influence heart and breathing rates. </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <div class="feature-holder">
+            <h2>
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="70" height="70">
+                <path
+                  d="M109.133 49.783a2.059 2.059 0 0 1 2.057 2.057v8.445a23.961 23.961 0 0 1-18.525 23.208c.027-.08.046-.162.072-.242a33.123 33.123 0 0 0 1.093-4.214c.011-.057.027-.113.038-.17a19.755 19.755 0 0 0 13.209-18.582V55.9a2 2 0 0 0-2-2H94.425v-4.117zM75.622 117.77H46.379a13.255 13.255 0 0 1-9.982-4.513H85.6a13.256 13.256 0 0 1-9.978 4.513zm28.044-11.562a1.524 1.524 0 1 1 0 3.049H18.335a1.524 1.524 0 1 1 0-3.049zm-42.666-4a29.458 29.458 0 0 1-29.423-29.424V43.359h58.848v29.425a29.525 29.525 0 0 1-.315 4.281c-.1.656-.217 1.308-.357 1.955l-.071.309q-.188.828-.425 1.643c-.03.1-.058.211-.09.316q-.274.906-.606 1.794c-.046.123-.1.243-.144.365q-.277.712-.593 1.409A29.458 29.458 0 0 1 61 102.208zM54.151 35.465a2 2 0 0 1-1.45-.622c-7.911-8.322-4.086-13.279-1.294-16.9 2.321-3.008 3.721-4.824 1.1-8.569a2 2 0 1 1 3.283-2.289c4.3 6.153 1.112 10.286-1.216 13.3-2.724 3.53-4.523 5.862 1.026 11.7a2 2 0 0 1-1.449 3.378zM70.25 35.465a2 2 0 0 1-1.45-.622c-7.911-8.322-4.086-13.279-1.294-16.9 2.321-3.008 3.721-4.824 1.1-8.569a2 2 0 0 1 3.278-2.291c4.3 6.153 1.112 10.286-1.216 13.3-2.724 3.53-4.523 5.862 1.026 11.7a2 2 0 0 1-1.449 3.378z" />
+              </svg>
+            </h2>
+            <h3>Coffee</h3>
+            <p>Coffee beans grow on a bush. They are actually the pit of a berry, which makes them a fruit.
+              There are two main varieties of beans, green and red. Red beans have a nicer smell and are less
+              acidic.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <div class="feature-holder">
+            <h2>
+              <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                class="bi bi-controller" viewBox="0 0 16 16">
+                <path
+                  d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z" />
+                <path
+                  d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z" />
+              </svg>
+            </h2>
+            <h3>Gaming</h3>
+            <p>Gaming, when used positively, can be a really helpful way to look after your mental health.
+              This is because it can give us a space to unwind, relax and take time out from the pressures
+              of daily life – just like reading can, or going for a walk.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Features list holder -->
+  <!-- Online course section -->
+  <section class="online-courses">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-6">
+          <div class="online-course-text-widget">
+            <h2>Online courses</h2>
+            <p>Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps
+              learning stays young. The greatest thing in life is to keep your mind young.
+            </p>
+            <div class="mt-3">
+              <a href="#" class="btn btn-warning">View all courses</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-4 col-md-4">
+          <div class="card online-course-card">
+            <img
+              src="https://thumbs.dreamstime.com/z/java-programming-word-cloud-hand-sphere-concept-white-background-127724638.jpg?w=768"
+              class="img-fluid" alt="Image">
+            <div class="card-body">
+              <h3 class="card-title">Java Basic to Advanced</h3>
+              <p class="card-text">Java is a secure and reliable language, also easy to learn and use.
+                It also offers powerful features such as object-oriented programming, garbage collection,
+                platform independence.
+              </p>
+              <a href="https://www.youtube.com/results?search_query=java+tutorial+for+beginners"
+                class="btn btn-warning btn-sm" target="_blank">View Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="card online-course-card">
+            <img src="https://blog.stackfindover.com/wp-content/uploads/2021/02/what-is-html.jpg" class="img-fluid"
+              alt="Image">
+            <div class="card-body">
+              <h3 class="card-title">HTML</h3>
+              <p class="card-text">HTML is a formatting system for displaying material retrieved over
+                the Internet. Each retrieval unit is known as a Web page and such pages frequently
+                contain hypertext links.
+              </p>
+              <a href="https://www.youtube.com/results?search_query=html+tutorial+for+beginners"
+                class="btn btn-warning btn-sm" target="_blank">View Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="card online-course-card">
+            <img src="https://i.ytimg.com/vi/1Rs2ND1ryYc/maxresdefault.jpg" class="img-fluid" alt="Image">
+            <div class="card-body">
+              <h3 class="card-title">Css Zero to Hero</h3>
+              <p class="card-text">“Cascading Style Sheets” is a computer
+                language for laying out and structuring web pages (HTML or XML). This language contains
+                coding elements which helps to make pages more realistic.
+              </p>
+              <a href="https://www.youtube.com/watch?v=1Rs2ND1ryYc" class="btn btn-warning btn-sm" target="_blank">View
+                Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="card online-course-card">
+            <img src="https://spin.atomicobject.com/wp-content/uploads/python-logo.jpg" class="img-fluid" alt="Image">
+            <div class="card-body">
+              <h3 class="card-title">Python</h3>
+              <p class="card-text">Python is often used as a support language for software developers, for build control
+                and management, testing, and in many other ways. Build bot and Apache Gump for
+                automated continuous compilation and testing. Roundup or Trace for bug tracking and project management.
+              </p>
+              <a href="https://www.youtube.com/results?search_query=python+for+beginners" class="btn btn-warning btn-sm"
+                target="_blank">View Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="card online-course-card">
+            <img src="https://cyberhoot.com/wp-content/uploads/2020/07/Free-Courses-to-learn-JavaScript-1024x576.jpg"
+              class="img-fluid" alt="Image">
+            <div class="card-body">
+              <h3 class="card-title">Java Script</h3>
+              <p class="card-text">JavaScript (JS) is a cross-platform, object-oriented programming language used by
+                developers to make web pages interactive. It allows developers to create dynamically updating content,
+                use animations, pop-up menus, clickable buttons, control multimedia, etc.
+              </p>
+              <a href="https://www.youtube.com/results?search_query=javascript+tutorial+for+beginners"
+                class="btn btn-warning btn-sm" target="_blank">View Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="card online-course-card">
+            <img
+              src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1264478/retina_1708x683_cover-0816-C__Mistakes-Waldek_Newsletter-8ca5fb6eacb673aaad1fe4bfaf4ce205-2f26062f759e8698edd8c5d77b82b992.png"
+              class="img-fluid" alt="Image">
+            <div class="card-body">
+              <h3 class="card-title">C++</h3>
+              <p class="card-text">C++ (or “C-plus-plus”) is a general-purpose programming and coding language. C++ is
+                used in developing browsers, operating systems, and Web applications, as well as in-game programming,
+                software engineering, Algorithms, data structures, etc.
+              </p>
+              <a href="https://www.youtube.com/results?search_query=c%2B%2B+full+course" class="btn btn-warning btn-sm"
+                target="_blank">View Course</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Online course section -->
+  <!-- classroom training -->
+  <section class="classroom-training ">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-6">
+          <div class="classroom-courses-text-widget">
+            <h2>Learn Web Development</h2>
+            <p>There is no prerequisite education, training, or licensure. You are eligible to
+              work in the field of web development as long as you can show off your work and
+              demonstrate that you have the required practical skills! so there should be some
+              artifacts to showcase your skills.
+            </p>
+            <a href="#" class="btn btn-warning">View Whole Course</a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-ld-4 col-md-4">
+          <div class="card text-white bg-secondary sign-up-form-sidebar">
+            <div class="card-body">
+              <h4 class="card-title">Sign up to get More details</h4>
+              <p class="card-text">Get Latest news and daily updates about new courses launched
+                everyday.
+              </p>
+              <form>
+                <div class="mb-3">
+                  <input type="text" class="form-control form-control-sm" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control form-control-sm" placeholder="Your Email Id">
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control form-control-sm" placeholder="Your Phone Number">
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control form-control-sm" placeholder="Your Name">
+                </div>
+                <div class="mb-3 d-grid">
+                  <input type="button" class="btn btn-dark" value="Register Online Now">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-8">
+          <div class="list-group">
+            <div class="list-group-item active">
+              Classroom training course | Career Based | Short Term
+            </div>
+            <a href="https://www.youtube.com/results?search_query=data+structure+full+course"
+              class="list-group-item course-list-item" target="_blank">
+              <div class="row">
+                <div class="col-lg-4 col-md-4">
+                  <img src="https://source.unsplash.com/random/600x314" alt="Image" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-8 col-md-8">
+                  <h5>Data Structures</h5>
+                  <p>
+                    A data structure is a storage that is used to store and organize data. It is a way of arranging
+                    data on a computer so that it can be accessed and updated efficiently. A data structure is not
+                    only used for organizing the data. It is also used for processing, retrieving, and storing data.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/results?search_query=web+development+full+course"
+              class="list-group-item course-list-item" target="_blank">
+              <div class="row">
+                <div class="col-lg-4 col-md-4">
+                  <img src="https://source.unsplash.com/random/600x314" alt="Image" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-8 col-md-8">
+                  <h5>Web Development</h5>
+                  <p>
+                    Web development is the work involved in developing a website for the Internet (World Wide Web) or an
+                    intranet (a private network). Web development can range from developing a simple single static page
+                    of plain text to complex web applications, electronic businesses, and social network services.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/results?search_query=machine+learning+full+course"
+              class="list-group-item course-list-item" target="_blank">
+              <div class="row">
+                <div class="col-lg-4 col-md-4">
+                  <img src="https://source.unsplash.com/random/600x314" alt="Image" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-8 col-md-8">
+                  <h5>Machine Learning</h5>
+                  <p>
+                    Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on
+                    the use of data and algorithms to imitate the way that humans learn, gradually improving its
+                    accuracy.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/results?search_query=data+science+full+course"
+              class="list-group-item course-list-item" target="_blank">
+              <div class="row">
+                <div class="col-lg-4 col-md-4">
+                  <img src="https://source.unsplash.com/random/600x314" alt="Image" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-8 col-md-8">
+                  <h5>Data Science</h5>
+                  <p>
+                    Data science combines math and statistics, specialized programming, advanced analytics, artificial
+                    intelligence (AI), and machine learning with specific subject matter expertise to uncover actionable
+                    insights hidden in an organization's data.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.youtube.com/results?search_query=ai+full+course"
+              class="list-group-item course-list-item" target="_blank">
+              <div class="row">
+                <div class="col-lg-4 col-md-4">
+                  <img src="https://source.unsplash.com/random/600x314" alt="Image" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-8 col-md-8">
+                  <h5>Artificial Intelligence</h5>
+                  <p>
+                    artificial intelligence (AI), the ability of a digital computer or computer-controlled robot to
+                    perform tasks commonly associated with intelligent beings.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- classroom training -->
+  <section class="reviews-slider">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-6">
+          <div class="review-text-widget">
+            <h2>what do people say about us</h2>
+            <p>“You only have to do a few things right in your life so long as you
+              don’t do too many things wrong.” <br>
+              – Warren Buffett
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="reviews-slider-holder">
+            <ul id="review_slider_content">
+              <li>
+                <div class="card">
+                  <div class="card-body">
+                    <img src="image/icon-user-default.png" alt="IMG" height="70px" width="70px">
+                    <h6 class="card-title">User Name 1</h6>
+                    <h5 class="star">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor, situr adipisicing elit. Eum exercitationem qui temporibus repur quis saepe.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="card-body">
+                    <img src="image/icon-user-default.png" alt="IMG" height="70px" width="70px">
+                    <h6 class="card-title">User Name 2</h6>
+                    <h5 class="star">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor, situr adipisicing elit. Eum exercitationem qui temporibus repur quis saepe.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="card-body">
+                    <img src="image/icon-user-default.png" alt="IMG" height="70px" width="70px">
+                    <h6 class="card-title">User Name 3</h6>
+                    <h5 class="star">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor, situr adipisicing elit. Eum exercitationem qui temporibus repur quis saepe.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="card-body">
+                    <img src="image/icon-user-default.png" alt="IMG" height="70px" width="70px">
+                    <h6 class="card-title">User Name 4</h6>
+                    <h5 class="star">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor, situr adipisicing elit. Eum exercitationem qui temporibus repur quis saepe.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="card">
+                  <div class="card-body">
+                    <img src="image/icon-user-default.png" alt="IMG" height="70px" width="70px">
+                    <h6 class="card-title">User Name 55</h6>
+                    <h5 class="star">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor, situr adipisicing elit. Eum exercitationem qui temporibus repur quis saepe.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="card">
+                  <div class="card-body">
+                    <img src="image/icon-user-default.png" alt="IMG" height="70px" width="70px">
+                    <h6 class="card-title">User Name 66</h6>
+                    <h5 class="star">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor, situr adipisicing elit. Eum exercitationem qui temporibus repur quis saepe.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <aside class="footer-widget">
+            <h5>Follow Us</h5>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">YouTube</a></li>
+              <li><a href="#">Tumblr</a></li>
+
+            </ul>
+          </aside>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <aside class="footer-widget">
+            <h5>Site Map</h5>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="AboutUs.html">About</a></li>
+              <li><a href="Blog.html">Blog</a></li>
+              <li><a href="Contact us.html">Contact</a></li>
+            </ul>
+          </aside>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <aside class="footer-widget">
+            <h5>Recent Updates</h5>
+            <ul>
+              <li><a href="#">Update one</a></li>
+              <li><a href="#">Update Two</a></li>
+              <li><a href="#">Update Three</a></li>
+              <li><a href="#">Update Four</a></li>
+              <li><a href="#">Update Five</a></li>
+            </ul>
+          </aside>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <aside class="footer-widget">
+            <address>
+              <h2>Skill Share Academy</h2>
+              <p>Learn anything and everything here.</p>
+              <p><strong>Email: </strong><a href="mailto:Someone@something.com">Someone@something.com</a></p>
+              <p><strong>Phone: </strong><a href="tel:+1234567890">+911234567890</a></p>
+            </address>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+  <!-- Copy -->
+  <section class="copy">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; 2022. All Rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Copy -->
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#review_slider_content").lightSlider({
+        auto: true,
+        loop: true,
+        responsive: [
+          {
+            breakpoint: 800,
+            settings: {
+              item: 3,
+              slideMove: 1,
+              slideMargin: 6,
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              item: 1,
+              slideMove: 1
+            }
+          }
+        ]
+      });
+    });
+  </script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+.custom_nav{
+    font-size: small;
+    box-shadow: 2px 2px 18px rgb(70, 61, 61);
+}
+.custom_nav ul.dropdown-menu{
+    font-size: small;
+}
+.custom-divide{
+    height: 10px;
+    background: rgb(238,12,12);
+    background: linear-gradient(90deg, rgba(238,12,12,1) 22%, 
+    rgba(201,217,23,1) 37%, rgba(36,224,14,1) 60%, rgba(0,212,255,1) 78%);
+}
+.custom_banner{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: azure;
+    /* background-image: url(image/wood.jpg); */
+    background-image: url(image/woood.jpg);
+    background-size: cover;
+}
+.feature-holder{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.features{
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-color: whitesmoke;
+}
+.img-fluid{
+    height: 300px;
+    width: 400px;
+ }
+.feature-holder h3{
+font-size: 1.2em;
+}
+.feature-holder p{
+    font-size: 14px;
+}
+.online-course-card{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.online-course-text-widget, .classroom-courses-text-widget, .review-text-widget, .page-content{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.online-courses h2, .classroom-training h2 , .review-text-widget{
+    font-size: 1.3em;
+}
+.online-courses p, .classroom-training p , .review-text-widget{
+    font-size: 14px;
+}
+.online-course-card .card-title{
+    font-size: 1.2em;
+    line-height: 25px;
+}
+.classroom-training{
+    background-color:whitesmoke ;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.reviews-slider{
+   background-color: #ececec;
+}
+.sign-up-form-sidebar .card-title{
+    font-size: 1.3em;
+}
+.course-list-item{
+    font-size: small;
+    padding-top: 25px;
+
+}
+#review_slider_content li .card{
+    text-align: center;  
+}
+#review_slider_content li .card img{
+    width: 70px;
+    margin-bottom: 25px;
+}
+#review_slider_content li .card .card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+#review_slider_content li .card .star{
+    color: orangered;
+    font-size: 16px;
+}
+#review_slider_content li .card .card-text{
+    font-size: 14px;
+}
+footer.main-footer {
+    background-color: black;
+    color: beige;
+    padding-top: 34px;
+    padding-bottom: 35px;
+}
+aside.footer-widget{
+    margin-bottom: 25px;
+}
+aside.footer-widget h5{
+    font-size: 16px;
+}
+aside.footer-widget ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+aside.footer-widget ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+address h2 {
+    font-size: 23px;
+}
+address p {
+    font-size: 15px;
+}
+.copy {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: gainsboro;
+    text-align: center;
+    color: black;
+}
+.google-map{
+    padding-top: 56px;
+}
+
+
+
+.myCard{
+    height: 300px;
+    width: 250px;
+}
